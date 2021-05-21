@@ -111,7 +111,7 @@ def timer_id(time_list):
         _id=''
         for i in range(len(times)-1):
             _id+=times[i]
-        time_id_new.append(int(float(_id) + int(beginning_time))*1000)
+        time_id_new.append(int((float(_id)+ int(beginning_time))*1000))
     return(time_id_new)
 
 #читаем джейсонку, создаем списки фраз, слов, временных отметок начала слов и концов фраз
